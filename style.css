@@ -1,0 +1,919 @@
+/* Définition d'une nouvelle police nommée "Raleway" via import Google */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+body
+{
+	font-family: raleway, "Arial black", Impact, sans-serif;
+	margin: 0;
+}
+
+
+h1
+{
+    font-size: 27px;
+    margin: 0;
+}
+
+
+#title p
+{
+    margin-top: 8px;
+    margin-bottom: 25px;
+}
+
+
+a
+{
+  text-decoration: none;
+  color: black;
+} 
+
+
+strong
+{
+    font-weight: bold; 
+}
+
+
+i.fas
+{
+    color: #0065FC;
+}
+
+
+i.fas.emptystar   
+{
+    color: #d9dee2;
+}
+
+
+#uppage, #research
+{
+    margin: 0 4% 0 4%;
+}
+
+
+#uppage
+{
+    display: flex;
+}
+
+
+#logo
+{
+    flex: 1;
+    padding: 25px 0;
+}
+
+
+#uppage nav li
+{
+    padding-top: 35px;
+}
+
+
+#uppage nav a
+{
+    padding: 32px 28px 28px 35px;
+}
+
+
+#uppage nav a:hover
+{
+    border-top: 3px solid #0065FC;
+    color: #0065FC;
+}
+
+
+#Subscription
+{
+    padding: 35px 0 35px 35px;
+    color: #0065FC;
+    font-weight: bold;
+}
+
+
+nav ul
+{
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+
+#search_bar form
+{
+    display: flex;
+    max-width: 100%;
+    overflow: auto;
+}
+
+
+i.fas.fa-map-marker-alt 
+{
+    color: black;        
+    background-color: #F2F2F2;
+    padding: 15px 18px;
+    border-radius: 10px 0 0 10px;
+}
+
+.formulaire input  
+{
+    border-left: none;
+    border-right: none;
+    border-top: 1px solid #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;
+    padding: 12px 0 11px 19px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: raleway, "Arial black", Impact, sans-serif;
+}
+
+
+::placeholder 
+{
+    color: black;
+    opacity: 1;
+}
+
+
+#search_button input
+{
+    background-color: #0065FC;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    padding: 12px 20px 13px 20px;
+    font-family: raleway, "Arial black", Impact, sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+#filters
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 0 0.5% 0;
+}
+
+
+#filters h2
+{
+    font-size: 17.5px;
+    margin: 0px 25px 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+
+.filter
+{
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    border: 2px solid #d9dee2;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 5px 12px 5px 12px;
+    text-align: right;
+}
+
+
+.filter:hover
+{
+    background-color: #DEEBFF;
+}
+
+
+i.fas.fa-money-bill-wave, i.fas.fa-child, i.fas.fa-heart, i.fas.fa-dog
+{
+    background-color: #DEEBFF;
+    height: 100%;
+    width: 33px;
+    padding: 6px;
+    margin: 0 10px 0 -16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+}
+
+
+#info
+{
+    display: flex;
+    align-items: center;
+}
+
+
+i.fas.fa-info-circle                       
+{
+    color: white;
+    background-color: #0065FC;
+    border: 2px solid #d9dee2;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    margin-left: 8px;
+    height: 19px;
+    width: 19px;
+    font-size: 125%;
+}
+
+
+#Hebergement_Populaire
+{
+    display: flex;
+    margin: 1.5% 3% 5% 3%;
+}
+
+
+#Hebergement
+{
+    border-radius: 15px;
+    background-color: #F2F2F2;
+    width: 70%;
+    margin-right: 2.8%;
+}
+
+
+#Hebergement header
+{
+    margin: 4% 0 -1.5% 4%;
+    padding-left: 5px;
+}
+
+
+#bloc_hebergement
+{
+    margin: 2%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.article_hebergements
+{
+    background-color: white;
+    padding: 5px;
+    margin: 2%;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px #d9dee2;
+    cursor: pointer;
+    box-sizing: border-box;
+    width: 29%;
+    position: relative;
+}
+
+
+.figure_hebergements
+{
+    margin: 0;
+}
+
+
+.figure_hebergements img
+{
+    height: 130px;
+    object-fit: cover;
+    max-width: 100%;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+
+.figcaption_hebergements
+{
+    margin: 2% 0 6% 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.figcaption_hebergements h3
+{
+    margin: 0;
+}
+
+
+.figcaption_hebergements p
+{
+    margin: 3% 0 7% 0;
+}
+
+
+.rating_hebergements
+{
+    position: absolute;
+    bottom: 4%;
+}
+
+
+#more_hebergement
+{
+    font-size: 18px;
+    width: 100%;
+    margin: 2% 0 2% 2%;
+    font-weight: bold;
+}
+
+
+#Populaire
+{
+    border-radius: 15px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #F2F2F2;
+    width: 32%; 
+}
+
+
+#Populaire header
+{
+    width: 88%;
+    margin: 4% 9% -9% 8%;
+    padding-left: 5px;
+}
+
+
+#Populaire h2
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+i.fas.fa-chart-line
+{
+    color: black;
+}
+
+
+.article_populaire
+{
+    background-color: white;
+    padding: 5px;
+    margin: -3%;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px #d9dee2;
+    cursor: pointer;
+    box-sizing: border-box;
+    height: 23%;
+    width: 83%;
+    position: relative;
+}
+
+
+.photos_populaire img
+{
+    height: 93.5%;
+    object-fit: cover;
+    width: 38%;
+    border-radius: 10px 0 0 10px;
+    position: absolute;
+    top: 3.5%;
+}
+
+
+.article_populaire_description
+{
+    margin: 3.5% 0 0 43%;
+}
+
+
+.article_populaire_description h3
+{
+    margin: 0;
+}
+
+.article_populaire_description p
+{
+    margin: 6% 0;
+}
+
+.rating_populaire
+{
+    position: absolute;
+    bottom: 9%;
+}
+
+
+#Activité
+{
+    margin: 0 3% 5% 3%;
+    display: grid;
+    grid-gap: 2.5em;
+    grid-template-rows: 3em 10em repeat(3,2em) 8em;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+#Activité header
+{
+    grid-area: 1/auto;
+}
+
+
+.blocs_activité
+{
+    box-shadow: 0 8px 10px #F2F2F2;
+    border-radius: 15px;
+    overflow: hidden;
+    min-height: 100%;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.photos_activité
+{
+    position: relative;
+    flex: 1;
+}
+
+
+.titre_activité
+{
+    margin-left: 7%;
+}
+
+.photos_activité img
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+#bloc_activité_1 
+{
+    grid-row: 2/7;
+    grid-column: 1/2;
+}
+
+
+#bloc_activité_2 
+{
+    grid-row: 2/5;
+    grid-column: 2/3;
+}
+
+
+#bloc_activité_3 
+{
+    grid-row: 5/7;
+    grid-column: 2/3;
+}
+
+
+#bloc_activité_4 
+{
+    grid-row: 2/7;
+    grid-column: 3/4;
+}
+
+
+#bloc_activité_5 
+{
+    grid-row: 2/4;
+    grid-column: 4/5;
+}
+
+
+#bloc_activité_6 
+{
+    grid-row: 4/7;
+    grid-column: 4/5;
+}
+
+
+footer 
+{
+    background-color: #F2F2F2;
+    display: flex;
+    padding-bottom: 3%;
+}
+
+
+footer ul
+{
+    list-style: none;
+    padding: 0;
+}
+
+
+footer li
+{
+    padding: 5% 0 0 0;
+}
+
+
+ .footers
+{
+    padding: 0 17% 0 3%;
+}
+
+
+
+
+
+/* Le style CSS suivant s'appliquera pour tous les écrans d'une dimension minimum de 1046 pixels (ordinateurs, écrans TV etc...) */
+@media all and (min-width: 1090px) 
+{
+
+#search_button i.fas
+{
+    display: none;
+}
+
+}
+
+
+
+
+
+@media all and (max-width: 1089px)
+{
+
+#Hebergement_Populaire
+{
+    flex-direction: column;
+    margin: 2% 0;
+    width: 100%;
+}
+
+
+#Populaire
+{
+    order: 1;
+    border-radius: 0;
+}
+
+
+.article_populaire
+{
+    margin: 3%;
+    height: 10em;
+}
+
+#Hebergement
+{
+    order: 2;
+    border-radius: 0;
+    background-color: white;
+}
+
+}
+
+
+
+
+
+/* Le style CSS suivant s'appliquera pour tous les écrans d'une dimension comprise entre 771 et 1045 pixels (tablettes, mode paysage, petits laptops etc...) */
+@media all and (min-width: 873px) and (max-width: 1089px) 
+{
+
+#search_button i.fas
+{
+    display: none;
+}
+
+
+#Populaire
+{
+    width: 97%;
+    padding: 0 1.5% 5% 1.5%;
+}
+
+
+#Populaire header
+{
+    width: 100%;
+    margin: 1% 3% 0 2%;
+}
+
+
+.article_populaire
+{
+    width: 30%;
+    margin: 1%;
+    height: 11em;
+}
+
+
+#Hebergement_Populaire
+{
+    margin-bottom: 0;
+}
+
+
+#Hebergement
+{
+    width: 97%;
+    padding: 0 1.5%;
+    margin: 5% 0;
+}
+
+
+#Hebergement header
+{
+    width: 90%;
+    margin: 1% 0 0 2%;
+}
+
+
+#Hebergement h2
+{
+    margin: 0;
+}
+
+
+#bloc_hebergement 
+{
+    margin: 0;
+}
+
+
+.article_hebergements
+{
+    width: 30%;
+    margin: 2% 1%;
+}
+
+
+#Activité header
+{
+    grid-area: 1/span 3;
+    margin-left: 2%;
+}
+
+
+footer
+{
+    justify-content: space-around;
+}
+
+
+.footers
+{
+    padding: 0;
+}
+
+}
+
+
+
+
+
+/* Le style CSS suivant s'appliquera pour tous les écrans d'une dimension maximum de 770 pixels (smartphones)*/
+@media all and (max-width: 872px) 
+{
+
+#uppage 
+{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+#logo
+{
+    grid-row: 1;
+    grid-column: 1;
+}
+
+
+#Subscription
+{
+    grid-row: 1;
+    grid-column: 2;
+    text-align: right;
+}
+
+
+nav
+{
+    grid-row: 2;
+    grid-column: 1/3;
+}
+
+
+nav ul
+{
+    display: inline-flex;
+    margin: 0 -5%;
+    padding: 0;
+}
+
+
+#uppage nav a
+{
+    border-bottom: 3px solid #F2F2F2;
+    color: #0065FC;
+    padding: 0 7em 1em 7em;
+}
+
+
+#uppage nav a:hover
+{
+    border-top: none;
+    border-bottom: 3px solid #0065FC;
+    color: #0065FC;
+}
+
+
+
+#search_button :not(a):not(.fas)
+{
+    display: none;
+}
+
+
+.formulaire
+{
+    flex: 1;
+}
+
+
+.formulaire input
+{
+    min-width: 108%;
+}
+
+
+#search_button .fas
+{
+    background-color: #0065FC;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    padding: 28.62% 18px;
+}
+
+
+#filters h2
+{
+    width: 100%;
+}
+
+
+#Populaire
+{
+    width: 100%;
+    margin-bottom: 7%;
+    padding-bottom: 7%;
+}
+
+
+#Populaire header
+{
+    margin-bottom: -1%;
+}
+
+
+.article_populaire
+{
+    margin: 3%;
+    height: 12em;
+}
+
+#Hebergement
+{
+    width: 100%;
+    margin: 0;
+}
+
+
+#Hebergement header
+{
+    margin-bottom: -2.5%;
+    margin-left: 8%;
+}
+
+.article_hebergements
+{
+    margin: 3% 7%;
+    width: 86%;
+}
+
+
+.figure_hebergements img
+{
+    height: 10em;
+}
+
+
+.figcaption_hebergements
+{
+    margin: 0 0 0 5%;
+}
+
+
+.figcaption_hebergements p 
+{
+    margin: 1% 0px 1.5em 0;
+}
+
+
+.rating_hebergements 
+{
+    bottom: 1%;
+}
+
+#more_hebergement 
+{
+    font-size: 20px;
+    margin-left: 6%;
+}
+
+
+#Activité 
+{
+    margin: 8% 9% 5% 9%;
+    grid-gap: 2em;
+    grid-template-rows: 3em repeat(6,14em);
+    grid-template-columns: 1fr;
+}
+
+
+#bloc_activité_1 
+{
+    grid-row: 2;
+    grid-column: span 1;
+}
+
+
+#bloc_activité_2 
+{
+    grid-row: 3;
+    grid-column: span 1;
+}
+
+
+#bloc_activité_3 
+{
+    grid-row: 4;
+    grid-column: span 1;
+}
+
+
+#bloc_activité_4 
+{
+    grid-row: 5;
+    grid-column: span 1;
+}
+
+
+#bloc_activité_5 
+{
+    grid-row: 6;
+    grid-column: span 1;
+}
+
+
+#bloc_activité_6 
+{
+    grid-row: 7;
+    grid-column: span 1;
+}
+
+
+footer
+{
+    flex-direction: column;
+    margin-top: 14%;
+}
+
+
+footer ul 
+{
+    padding-left: 8%;
+}
+
+
+footer h3
+{
+    margin: 3% 0 1.5% 0;
+}
+
+
+footer li 
+{
+    padding-top: 4%;
+}
+
+}
