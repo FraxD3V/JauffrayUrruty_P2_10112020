@@ -6,14 +6,14 @@
         <meta charset="utf-8" />
         <link rel="stylesheet" type="text/css" href="./style.css" />
         <title> Reservia - Planifiez vos vacances en toute simplicité </title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Le viewport correspond à la largeur de l'écran -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Signifie que le viewport correspond à la largeur de l'écran -->
         <script src="https://kit.fontawesome.com/f40fe6d61b.js" crossorigin="anonymous"></script>
 
     </head>
 
 
     <body>
-    	<div id="main_wrapper"> <!-- Peut servir si l'on veut fixer rapidement les dimensions de la page -->
+    	<div id="main_wrapper"> <!-- Peut servir si l'on veut contrôler rapidement la page entière (notamment les dimensions), + fiable que body -->
 
 
 <!-- *************************** HEADER *************************** -->
@@ -38,6 +38,8 @@
     		</header>
 
 
+<!-- *************************** SECTION - RECHERCHE *************************** -->
+
     		<section id="research">
 
     			<header id="title">
@@ -47,13 +49,10 @@
 
 	    		</header>
 
-
-<!-- *************************** SECTION - RECHERCHE *************************** -->
-
 	    		<div id="search_bar">
 	    				<form method="post" action="search_results.php">
 			    			<label for="emplacement"><i class="fas fa-map-marker-alt"></i></label>
-			    			<span class="formulaire"><input type="search" name="emplacement" id="emplacement" placeholder="Marseille, France" size="1"/></span> <!-- Size permet de rendre le champ input responsive même avec un très petit écran -->
+			    			<span class="formulaire"><input type="search" name="emplacement" id="emplacement" placeholder="Marseille, France" size="1" /></span>  <!-- Size=1 permet de rendre le champ input responsive même avec un très petit écran --> 
 			    			<span id="search_button"><input type="submit" value="Rechercher" /><a id="search_logo" href="#"><i class="fas fa-search"></i></a>
 			    			</span>
 	    				</form>
@@ -95,7 +94,7 @@
 
 <!-- *************************** SECTION - HÉBERGEMENT / ASIDE - POPULAIRE *************************** -->
 
-			<section id="Hebergement_Populaire">
+			<main id="Hebergement_Populaire">  <!-- Balise <div> à la place de <section> pour ne pas générer d'avertissement au validateur W3C-->
 
 				<section id="Hebergement">
 					
@@ -291,7 +290,7 @@
 
 				</aside> 
 
-			</section>
+			</main>
 
 
 <!-- *************************** SECTION - ACTIVITÉ *************************** -->
