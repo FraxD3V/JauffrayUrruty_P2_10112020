@@ -406,6 +406,7 @@ i.fas.fa-chart-line
     width: 38%;
     border-radius: 10px 0 0 10px;
     position: absolute;
+    top: 5px;              /** Nécessaire pour conserver le padding-top de 5px sous le navigateur Chrome **/
 }
 
 
